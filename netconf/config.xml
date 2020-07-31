@@ -1,0 +1,8 @@
+<config>
+    <interfaces xmlns='urn:ietf:params:xml:ns:yang:ietf-interfaces'>
+        <interface>
+            <name>{name}</name>
+            <description>{description}</description>
+        </interface>
+    </interfaces>
+</config>
