@@ -1,0 +1,4 @@
+hostname;ip;description;loop;descloop;management
+R1;10.0.0.1;Port1WAN;1.1.1.10;TestLOOP1;172.16.152.129
+R2;10.0.0.2;Port2WAN;2.2.2.20;TestLOOP2;172.16.152.130
+R3;10.0.0.3;Port3WAN;3.3.3.30;TestLOOP3;172.16.152.131
