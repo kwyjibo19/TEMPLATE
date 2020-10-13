@@ -1,0 +1,58 @@
+{
+    "imdata": [
+        {
+            "aaaLogin": {
+                "attributes": {
+                    "token": "qYHlT7SJtS4PKSPA+s1RkDE+0cwjBn1Zqvjdedka2L7ocwU3h3OJAHcKAMXQAMLgZq7AHnc5IynsGJS2ibASCHjbm6Nd1i0MI/LrH20Qq/0jTAvD0ttrSCSdYG6Y/9njEe6LOb6Q4uHmq9NiMjLPFv6n+PRs9PTYlMGa9+Mv5TQ=",
+                    "siteFingerprint": "",
+                    "refreshTimeoutSeconds": "600",
+                    "guiIdleTimeoutSeconds": "1200",
+                    "restTimeoutSeconds": "1920151406",
+                    "creationTime": "1596304135",
+                    "firstLoginTime": "1596304135",
+                    "userName": "admin",
+                    "remoteUser": "false",
+                    "unixUserId": "0",
+                    "sessionId": "AQABAAEAAQABAAEAAQABAA==",
+                    "lastName": "",
+                    "firstName": "",
+                    "version": "0.9(14HEAD${version.patch})",
+                    "buildTime": "Thu Jul 18 13:18:22 PDT 2019",
+                    "controllerId": "0"
+                },
+                "children": [
+                    {
+                        "aaaUserDomain": {
+                            "attributes": {
+                                "name": "all",
+                                "rolesR": "admin",
+                                "rolesW": "admin"
+                            },
+                            "children": [
+                                {
+                                    "aaaReadRoles": {
+                                        "attributes": {}
+                                    }
+                                },
+                                {
+                                    "aaaWriteRoles": {
+                                        "attributes": {},
+                                        "children": [
+                                            {
+                                                "role": {
+                                                    "attributes": {
+                                                        "name": "network-admin"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

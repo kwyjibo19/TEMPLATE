@@ -1,0 +1,17 @@
+---
+ansible_connection: httpapi
+ansible_httpapi_port: 80
+ansible_user: admin
+ansible_password: admin
+ansible_network_os: nxos
+
+local_loopback:
+  - name: Loopback1
+    desc: Sample Ansible config
+    ip_address: 172.20.1.2/24
+  - name: Loopback2
+    desc: Sample Ansible config
+    ip_address: 172.22.1.2/24
+  - name: Loopback3
+    desc: Sample Ansible config
+    ip_address: 172.24.1.2/24
